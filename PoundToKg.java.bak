@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class PoundToKg
+{
+	public static void main(String[] args) 
+	{
+		float p, kg;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter weight in Pounds: ");
+		p = sc.nextFloat();
+		kg = p*0.454f;
+		System.out.println(p+" Pounds are "+kg+" Kilograms");
+	}
+}
